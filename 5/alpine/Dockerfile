@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM mobz/elasticsearch-head:5-alpine
 
 # ensure elasticsearch user exists
 RUN addgroup -S elasticsearch && adduser -S -G elasticsearch elasticsearch
