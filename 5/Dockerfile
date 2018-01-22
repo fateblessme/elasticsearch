@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM mobz/elasticsearch-head:5-alpine
 
 # grab gosu for easy step-down from root
 ENV GOSU_VERSION 1.10
